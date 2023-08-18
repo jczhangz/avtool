@@ -16,8 +16,6 @@ int main() {
     } else {
         printf("image generate fail");
     };
-
-    std::cout << "end";
 }
 
 
