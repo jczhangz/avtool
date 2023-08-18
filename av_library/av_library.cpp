@@ -159,9 +159,7 @@ int frame2Image(AVFrame *frame, enum AVCodecID codecId, uint8_t *outBuf, size_t 
 
 
     static struct SwsContext *swsContext;
-//    av_packet_unref(&pkt);
     av_init_packet(&pkt);
-//    pkt = av_packet_alloc();
     codec = avcodec_find_encoder(codecId);
 
     if (!codec) {

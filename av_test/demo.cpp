@@ -6,9 +6,9 @@
 
 
 int main() {
-    const char *videoPath = "test.avi";
-    const char *imgPath = "11.jpg";
-    int frameIndex = 1;
+    const char *videoPath = "test.mp4";
+    const char *imgPath = "112.jpg";
+    int frameIndex = 4;
     int ret = captureImage(videoPath, imgPath, frameIndex);
 
     if (ret == 0) {
