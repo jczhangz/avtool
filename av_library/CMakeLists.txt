@@ -18,7 +18,7 @@ link_directories(lib)
 # Create static or shared library target.
 if (AV_LIBRARY_STATIC)
     # Static
-    add_library(av_library STATIC ${FOO_LIBRARY_SOURCES})
+    add_library(av_library STATIC ${AV_LIBRARY_SOURCES})
 
     # Define FOO_LIBRARY_STATIC when building and using this library.
     target_compile_definitions(av_library
